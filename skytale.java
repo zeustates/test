@@ -3,8 +3,8 @@ package krypto1;
 
 
 public class Skytale {
-	private String text;
-	private int ecken;
+	private String text; // zu Versclüsselnder Text
+	private int ecken; //Anzahl der Seiten des imaginären Stifts 
 	Skytale(String a,int b){
 		text=a;
 		ecken=b;
