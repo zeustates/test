@@ -41,11 +41,12 @@ public class Skytale {
 		int i=0;
 		for (int i2=0;i2<platzhalter[i].length();i2++){
 			for (i = 0;i<eck-1;i++){
-				zaehler++;
+				
 				System.out.println("w");
 				if (zaehler<=a.length()){
 					ausgabe+=platzhalter[i].charAt(i2);
 			}
+			zaehler++;
 
 				
 			}
